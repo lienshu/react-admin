@@ -1,0 +1,8 @@
+@import "./sassConfig.scss";
+@import "./normalize.scss";
+// 全局性公共的样式
+
+// 因为main.scss文件在webpack.config.js中进行了全局配置，所以不需要在每个文件中引入即可显示对应的样式
+body {
+    background-color: #001529 !important;
+}
